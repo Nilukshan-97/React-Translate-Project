@@ -15,11 +15,11 @@ function Navbar() {
 		<header>
 			<h3>LOGO</h3>
 			<nav ref={navRef}>
-				<a href="/#">Home</a>
+				<a href="/">Home</a>
 				<a href="/#">About</a>
 				<a href="/#">Pages</a>
 				<a href="/#">Blog</a>
-                <a href="/#">Contact</a>
+                <a href="/contact ">Contact</a>
                 <select name="" id="" className="language-select">
                     <option value="">English</option>
                     <option value="">Spanish</option>

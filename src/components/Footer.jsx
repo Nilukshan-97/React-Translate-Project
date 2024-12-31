@@ -5,6 +5,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import CallIcon from '@mui/icons-material/Call';
 import EmailIcon from '@mui/icons-material/Email';
+import PinDropIcon from '@mui/icons-material/PinDrop';
 import "../styles/Footer.css";
 
 function Footer() {
@@ -20,6 +21,9 @@ function Footer() {
         </div>
         <div className="footer-right">
           <div className="details">
+            <span>
+              <PinDropIcon /> No 85, Rue Avenue de la republique, France
+            </span>
             <span>
               <CallIcon /> +33 65 78 95 82 12
             </span>
