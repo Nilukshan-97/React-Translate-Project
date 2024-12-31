@@ -1,0 +1,53 @@
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: #121619;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+
+  .socialMedia {
+    display: flex;
+    gap: 15px;
+}
+  
+  .socialMedia svg {
+    color: white;
+    margin: 30px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+
+  .socialMedia svg:hover{
+    color: rgb(255, 187, 0)
+  }
+
+  .details{
+    display: flex;
+    gap: 30px;
+    color: white;
+  }
+
+  .details span:hover{
+    color: rgb(255, 187, 0) ;
+  }
+
+  .details span{
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+    font-size: 14px;
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+  }
+  
+  .footer p {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    margin: 10px;
+  }
