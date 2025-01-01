@@ -1,0 +1,26 @@
+.header {
+    background: linear-gradient(200deg, #3e8b99, #0f3a42);
+    padding: 2rem 0; 
+    margin: auto;
+  }
+  
+  .header h1 {
+    color: #ffffff;
+    margin: 10;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .header h4 {
+    color: #ffffff;
+    margin: 0;
+    font-size: 5rem;
+    text-align: center;
+  }
+  
+  .header p {
+    margin: 1rem 0;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1rem;
+  }

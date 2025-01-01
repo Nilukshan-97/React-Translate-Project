@@ -2,7 +2,7 @@
 .contact-container {
     position: relative;
     padding: 20px;
-    background-color:#0d3444 ;
+    background: linear-gradient(200deg, #3e8b99, #0f3a42);
     text-align: center;
   }
   

@@ -1,0 +1,9 @@
+.pricing-section {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem 0;
+    background: linear-gradient(130deg, #3e8b99, #0f3a42);
+    margin-top: 1px;
+
+  }

@@ -17,7 +17,7 @@ function Navbar() {
 			<nav ref={navRef}>
 				<a href="/">Home</a>
 				<a href="/#">About</a>
-				<a href="/#">Pages</a>
+				<a href="/pricing">Pricing</a>
 				<a href="/#">Blog</a>
                 <a href="/contact ">Contact</a>
                 <select name="" id="" className="language-select">
