@@ -16,9 +16,9 @@ function Navbar() {
 			<h3>LOGO</h3>
 			<nav ref={navRef}>
 				<a href="/">Home</a>
-				<a href="/#">About</a>
+				<a href="/about">About Us</a>
 				<a href="/pricing">Pricing</a>
-				<a href="/#">Blog</a>
+				<a href="/services">Services</a>
                 <a href="/contact ">Contact</a>
                 <select name="" id="" className="language-select">
                     <option value="">English</option>

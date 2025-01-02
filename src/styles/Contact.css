@@ -2,7 +2,9 @@
 .contact-container {
     position: relative;
     padding: 20px;
-    background: linear-gradient(200deg, #3e8b99, #0f3a42);
+    background-image: url("../assets/bg_2.jpg"); 
+    background-size: cover;
+    background-position: center;
     text-align: center;
   }
   

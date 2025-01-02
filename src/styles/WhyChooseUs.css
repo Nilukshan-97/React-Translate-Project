@@ -1,0 +1,55 @@
+.why-choose-us {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.why-choose-us .section-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.why-choose-us .section-header h4 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+    margin-top: 20px;
+}
+
+.why-choose-us .section-header p {
+    font-size: 1rem;
+    color: #ffffff;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.why-choose-us .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.why-choose-us .features {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.why-choose-us .image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.why-choose-us .image-section img {
+    max-width: 70%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}

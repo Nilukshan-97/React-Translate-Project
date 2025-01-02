@@ -15,7 +15,7 @@
 	--textColor: #eee;
 }
 
-/* Navbar Base Styles */
+
 header {
 	display: flex;
 	align-items: center;
@@ -69,7 +69,7 @@ header .nav-btn {
 	outline: none;
 	color: var(--textColor);
 	font-size: 1.8rem;
-	display: none; /* Hidden by default for large screens */
+	display: none;
 }
 
 nav .nav-close-btn {
@@ -83,10 +83,10 @@ nav .nav-close-btn {
 	cursor: pointer;
 }
 
-/* Responsive Styles */
+
 @media only screen and (max-width: 1024px) {
 	header .nav-btn {
-		display: block; /* Show toggle button on smaller screens */
+		display: block; 
 	}
 
 	header nav {
@@ -100,14 +100,14 @@ nav .nav-close-btn {
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		transform: translateY(-100vh); /* Hidden by default */
+		transform: translateY(-100vh); 
 		transition: transform 0.5s ease-in-out;
 		gap: 1.5rem;
-		z-index: 1000; /* Ensure it overlays all other content */
+		z-index: 1000; 
 	}
 
 	header nav.responsive_nav {
-		transform: translateY(0); /* Show when toggled */
+		transform: translateY(0); 
 	}
 
 	nav a {
