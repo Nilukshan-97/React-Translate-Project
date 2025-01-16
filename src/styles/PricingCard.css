@@ -1,64 +1,68 @@
 .pricing-card {
-    border: 1px solid #000000;
-    padding: 2rem;
-    border-radius: 8px;
-    background-color: rgb(255, 255, 255);
-    width: 400px;
-    margin: 6rem;
-    text-align: left;
-    transition: transform 0.3s ease;
-  }
+  border: 1px solid #000000;
+  padding: 2rem;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.95);
+  width: 300px;
+  margin: 1rem;
+  text-align: left;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 100px;
+}
 
-  .pricing-card:hover {
-    transform: scale(1.05); 
-    background-color: rgb(107, 193, 214);
-  }
-  
-  
-  .pricing-card h3 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    color: #1461c5f6;
-  }
-  
-  .pricing-card .price {
-    font-size: 2rem;
-    color: #000000;
-    margin-bottom: 1rem;
-    font-weight: 600;
-  }
-  
-  .pricing-card ul {
-    list-style-type: square;
-    padding: 2px;
-    color: #000000;
-    margin-left: 20%;
+.pricing-card.popular {
+  border: 2px solid #00acc1;
+  background-color: rgba(224, 247, 250, 0.95);
+}
 
-  }
-  
-  .pricing-card li {
-    margin-bottom: 0.5rem;
-  }
-  
-  .pricing-card button {
-    background-color:  rgb(255, 187, 0);
-    color: #fff;
-    border: none;
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
-    cursor: pointer;
-    font-weight: bold;
-    transition: background-color 0.3s ease, transform 0.1s ease;
-    width: 200px;
-    margin-top: 15%;
-    margin-left: 20%;
-  }
+.pricing-card:hover {
+  transform: scale(1.05);
+}
 
-  .pricing-card button:active {
-    transform: scale(0.98);
-  }
-  
-  .pricing-card button:hover {
-    background-color:rgb(212, 155, 21);
-    transform: scale(1.05);
-  }
+.pricing-card h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #1461c5f6;
+}
+
+.pricing-card .price {
+  font-size: 2.2rem;
+  color: #000000;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.pricing-card ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 1rem 0;
+  color: #000000;
+}
+
+.pricing-card li {
+  margin-bottom: 0.5rem;
+}
+
+.pricing-card li::before {
+  content: "✔ ";
+  color: #007bff;
+  margin-right: 5px;
+}
+
+.pricing-card button {
+  background-color: #ddc806;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+  width: 100%;
+}
+
+.pricing-card button:hover {
+  background-color: #b3a527;
+  transform: scale(1.05);
+}
