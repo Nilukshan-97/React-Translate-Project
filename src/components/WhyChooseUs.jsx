@@ -13,25 +13,25 @@ const WhyChooseUs = () => {
     {
       title: '24 Customer Services',
       description: 'Suspendisse morbi mauris gravida tellus integer egestas.',
-      bgColor: '#e8f9fb',
+      bgColor: '#33cccc',
       icon: ChatBubbleOutlineIcon,
     },
     {
       title: 'Guarantee',
       description: 'Suspendisse morbi mauris gravida tellus integer egestas.',
-      bgColor: '#cfefff',
+      bgColor: '#0086b3',
       icon: VerifiedIcon,
     },
     {
       title: 'Fast Delivery',
       description: 'Suspendisse morbi mauris gravida tellus integer egestas.',
-      bgColor: '#f8f8fc',
+      bgColor: '#b3cbcb',
       icon: LocalShippingIcon,
     },
     {
       title: 'Free Consultation',
       description: 'Suspendisse morbi mauris gravida tellus integer egestas.',
-      bgColor: '#fff6d4',
+      bgColor: '#ffdf80',
       icon: PhoneInTalkIcon,
     },
   ];

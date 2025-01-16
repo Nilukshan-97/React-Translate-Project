@@ -1,26 +1,36 @@
-.header {
-    background: linear-gradient(200deg, #3e8b99, #0f3a42);
-    padding: 2rem 0; 
+.header-p {
+    padding: 2rem 0;
+    background-image: url("../assets/Pricing.jpg");
+    height: 25%;  
     margin: auto;
-  }
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2rem 0;
+    margin: auto;
+    background-color: rgba(62, 63, 63, 0.219);
+    background-blend-mode: overlay; 
+    z-index: -1; 
+
+}
   
-  .header h1 {
+.header-p h1 {
     color: #ffffff;
     margin: 10;
     font-size: 2rem;
     text-align: center;
-  }
+}
 
-  .header h4 {
+.header-p h4 {
     color: #ffffff;
     margin: 0;
     font-size: 5rem;
     text-align: center;
-  }
+}
   
-  .header p {
+.header-p p {
     margin: 1rem 0;
     color: #ffffff;
     text-align: center;
     font-size: 1rem;
-  }
+}

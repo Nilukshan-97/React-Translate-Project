@@ -9,32 +9,56 @@ import PinDropIcon from '@mui/icons-material/PinDrop';
 import "../styles/Footer.css";
 
 function Footer() {
-    return (
-      <div className="footer">
-        <div className="footer-left">
+  return (
+    <div className="footer">
+      <div className="footer-container">
+        <div className="footer-logo">
+          <h3>Translantic</h3>
+          <p>
+            Lectus ac pulvinar tincidunt accumsan. Nulla lectus facilis isaclect
+            molestie ulamcorper ublandit vulputactus in sit egestas dolor purus
+            tincidunt.
+          </p>
+        </div>
+        <div className="footer-menu">
+          <h4>Menu</h4>
+          <ul>
+            <li>Home</li>
+            <li>Pricing</li>
+            <li>Services</li>
+            <li>Blog</li>
+            <li>About Us</li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+        <div className="footer-services">
+          <h4>Services</h4>
+          <ul>
+            <li>Translation Services</li>
+            <li>Legal Translation</li>
+            <li>Medical Translation</li>
+            <li>Business Translation</li>
+            <li>Document Translation</li>
+            <li>Professional Translation</li>
+          </ul>
+        </div>
+        <div className="footer-contact">
+          <h4>Contact</h4>
+          <p><PinDropIcon/>&nbsp; 4200 Hamill Avenue, San Diego, California</p>
+          <p><CallIcon/>&nbsp; 021 3456 789</p>
+          <p><EmailIcon/>&nbsp; customer@translantic.com</p>
           <div className="socialMedia">
-            <InstagramIcon />
-            <TwitterIcon />
             <FacebookIcon />
+            <TwitterIcon />
+            <InstagramIcon />
             <LinkedInIcon />
           </div>
         </div>
-        <div className="footer-right">
-          <div className="details">
-            <span>
-              <PinDropIcon /> No 85, Rue Avenue de la republique, France
-            </span>
-            <span>
-              <CallIcon /> +33 65 78 95 82 12
-            </span>
-            <span>
-              <EmailIcon /> service@translatic.com
-            </span>
-          </div>
-        </div>
-        <p className="footer-bottom">&copy; 2024 Translatic</p>
       </div>
-    );
-  }
-  
-  export default Footer;
+      <hr></hr>
+      <p className="footer-bottom">&copy; Copyright 2021 Translantic</p>
+    </div>
+  );
+}
+
+export default Footer;

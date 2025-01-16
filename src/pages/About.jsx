@@ -1,21 +1,45 @@
-import React from 'react'
-import WhyChooseUs from '../components/WhyChooseUs'
-import "../styles/AboutUs.css"; 
+import React from 'react';
+import WhyChooseUs from '../components/WhyChooseUs';
+import '../styles/AboutUs.css';
+import aboutImage from '../assets/about.jpg';
+import PricingImage from '../assets/pricing.jpg';
+import AboutSection from '../components/AboutSection';
 
 const About = () => {
   return (
     <div className="about-us">
-      <h1>About Us</h1>
-      <p>
-        We are dedicated to providing top-notch services to our clients. With a team of experienced
-        professionals, we strive to deliver exceptional customer service, guaranteed satisfaction, and timely solutions.
-      </p>
+      <div className="container">
+        <section className="about-section">
+          <div className="about-content">
+            <h1>About Translantic</h1>
+            <p>
+              Quis egestas felis eu fermentum aducus suscipit quis gravida dolor
+              amet justo in purus integer dui enim vitae vitae congue volutpat
+              tincidunt sed ac non tempor massa ultrices eget.
+            </p>
+            <p>
+              Quis egestas felis eu fermentum aducus suscipit quis gravida dolor
+              amet justo in purus integer dui enim vitae vitae congue volutpat
+              tincidunt sed ac non tempor massa ultrices eget.
+            </p>
+            <button className="read-more-btn">Read More</button>
+          </div>
+          <div className="about-images">
+            <img src={aboutImage} alt="Team meeting in progress" className="image" />
+          </div>
+        </section>
+
+        <AboutSection/>
+
+      </div>
 
       <div>
         <WhyChooseUs/>
       </div>
     </div>
-  )
-}
 
-export default About
+    
+  );
+};
+
+export default About;

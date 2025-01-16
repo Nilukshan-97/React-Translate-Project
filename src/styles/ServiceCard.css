@@ -1,91 +1,169 @@
-.service {
-    font-family: Arial, sans-serif;
-    padding: 20px;
-    background-image: url("../assets/bg_2.jpg"); 
-    background-size: cover;
-    background-position: center;
-
-       
+.services {
+    background-color: #f9f9f9;
+    padding: 50px;
 }
 
 .header {
-    text-align: center;
+    text-align: left;
     margin-bottom: 30px;
-    background: linear-gradient(200deg, #3e8b99, #0f3a42);
+    position: relative;
+    margin-left: 100px;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #000000;
+}
+
+.header p {
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
 }
 
 .view-all-button {
-    background-color: rgb(255, 187, 0);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 10;
+    background-color: #ffbb00;
+    color: #fff;
+    padding: 10px 25px;
     border: none;
-    padding: 10px 20px;
-    cursor: pointer;
     font-size: 1rem;
-    color: #ffffff;
     font-weight: 600;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    margin-right: 100px;
+}
+
+.view-all-button:hover {
+    background-color: #e6a900;
+    transform: translateY(-3px);
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.images-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.service-image {
+    width: 100%; 
+    max-width: 600px; 
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    object-fit: cover; 
+    margin-left: 100px;
 }
 
 .services-list {
+    margin-right: 100px;
+    flex: 1;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 20px;
-    justify-content: center;
-    margin-bottom: 30px;
 }
 
 .service-card {
-    background: white;
-    border: 1px solid #000000;
+    background: #a1c0c4;
+    border: 1px solid #ddd;
     border-radius: 8px;
     padding: 20px;
-    text-align: center;
-    width: 300px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-
-
 .service-card:hover {
-    transform: translateY(-5px);
-    transform: scale(1.05);
-    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    transform: scale(1.03);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
 }
 
-
 .service-card .icon {
-    font-size: 3rem;
-    color: #007bff;
+    font-size: 2rem;
+    color: #0858ec;
     margin-bottom: 10px;
 }
 
 .service-card h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
     margin-bottom: 10px;
     color: #333;
-    font-size: 1.25rem;
-    font-weight: bold;
 }
 
 .service-card p {
-    color: #666;
-    font-size: 0.95rem;
-    line-height: 1.5;
-}
-
-.service-card .b-more{
-    background-color: rgb(11, 95, 134);
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
     font-size: 1rem;
-    color: #ffffff;
-    font-weight: 700;
-    margin-top: 10px;
-    border-radius: 20px;
+    color: #666;
 }
 
-.service-card .b-more:hover{
-    background-color: rgba(11, 95, 134, 0.767);
-    
+@media (max-width: 768px) {
+    .services-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .images-section, 
+    .services-list {
+        flex: none;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .view-all-button {
+        position: static;
+        margin: 10px auto;
+        display: block;
+    }
+
+    .service-image {
+        max-width: 300px; 
+    }
 }
 
+@media (max-width: 480px) {
+    .header h1 {
+        font-size: 2rem;
+        margin-bottom: 15px;
+    }
 
+    .header p {
+        font-size: 1rem;
+        line-height: 1.4;
+    }
+
+    .view-all-button {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+        margin: 10px auto;
+    }
+
+    .service-card {
+        padding: 15px;
+        margin-bottom: 10px;
+    }
+
+    .service-card h3 {
+        font-size: 1.1rem;
+    }
+
+    .service-card p {
+        font-size: 0.9rem;
+    }
+
+    .service-image {
+        max-width: 200px; 
+    }
+}

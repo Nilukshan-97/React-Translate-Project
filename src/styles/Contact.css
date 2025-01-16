@@ -2,7 +2,8 @@
 .contact-container {
     position: relative;
     padding: 20px;
-    background-image: url("../assets/bg_2.jpg"); 
+   /* background-image: url("../assets/bg_2.jpg"); */
+    background-color: white;
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -13,6 +14,7 @@
     margin-bottom: 20px;
     font-size: 2.5rem;
     font-weight: bold;
+    color: black;
   }
   
   .map-section {
@@ -25,7 +27,7 @@
   .map-iframe {
     border: 2;
     border-radius: 5px;
-    border-color: rgb(239, 255, 17);
+    border-color: rgb(4, 109, 104);
   }
   
 
@@ -33,7 +35,7 @@
     position-try: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(0%, -15%);
+    transform: translate(0%, -25%);
     z-index: 10;
     display: flex;
     justify-content: center;
@@ -49,10 +51,8 @@
     outline: none;
   }
   
-  
- 
 .contact-form {
-    width: 400px;
+    width: 500px;
     background: rgba(255, 255, 255, 0.95);
     padding: 30px;
     border-radius: 10px;
@@ -65,8 +65,67 @@
     margin-bottom: 20px;
     font-size: 1.5rem;
     font-weight: bold;
-    text-align: center;
-    color: #000000;
+    text-align: left;
+    color: #e7b203;
   }
-  
-  
+
+  .contact-details-m{
+    margin-top: 200px;
+    padding-right: 50px;
+    text-align: left;
+    color: black;
+  }
+
+  .contact-details span{
+    display: block;
+    align-items: center;
+    text-align: left;
+    padding: 10px;
+    color: black;
+  }
+
+  .contact-follow{
+    font-size: 20px;
+    margin-top: 20px;
+    color: black;
+  }
+
+  .contact-socialMedia{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    color: black;
+  }
+
+  .contact-socialMedia svg{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+
+  .contact-socialMedia svg:hover{
+    color: rgb(255, 217, 0);
+    transition: color 0.5s ease;
+  }
+
+  .contact-head h1{
+    color: black;
+  }
+
+  .contact-head p{
+    font-size: 1rem;
+    color: black;
+    padding: 10px;
+  }
+
+  .contact-body{
+    background-color: rgb(44, 112, 114);
+    padding: 30px;
+    width: 450px;
+    border-radius: 20px;
+    
+  }
+
+ 

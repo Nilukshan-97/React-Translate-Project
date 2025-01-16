@@ -1,6 +1,13 @@
 import React from "react";
 import "../styles/Contact.css"; 
 import ContactForm from "../components/ContactForm";
+import CallIcon from '@mui/icons-material/Call';
+import EmailIcon from '@mui/icons-material/Email';
+import PinDropIcon from '@mui/icons-material/PinDrop';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 
 function Contact() {
@@ -22,6 +29,27 @@ function Contact() {
 
       
       <div className="form-section">
+        <div className="contact-details-m">
+          <h1>Let's Get Started!</h1>
+            <div className="contact-details">
+              <span>
+                <PinDropIcon /> No 85, Rue Avenue de la republique, France
+              </span>
+              <span>
+                <CallIcon /> +33 65 78 95 82 12
+              </span>
+              <span>
+                <EmailIcon /> service@translatic.com
+              </span>
+            </div>
+            <h2 className="contact-follow">Follow Us</h2>
+            <div className="contact-socialMedia">
+              <InstagramIcon />
+              <TwitterIcon />
+              <FacebookIcon />
+              <LinkedInIcon />
+            </div>
+        </div>
         <ContactForm />
       </div>
     </div>

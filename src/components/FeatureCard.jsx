@@ -3,12 +3,10 @@ import '../styles/FeatureCard.css';
 
 const FeatureCard = ({ icon: Icon, title, description, bgColor }) => {
   return (
-    <div className="feature-card">
-      <div className="icon">
-        <Icon />
-      </div>
+    <div className="feature-card" style={{ backgroundColor: bgColor }}>
+      <Icon className="feature-icon" />
       <h3>{title}</h3>
-      <h6>{description}</h6>
+      <p>{description}</p>
     </div>
   );
 };

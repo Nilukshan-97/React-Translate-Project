@@ -22,7 +22,7 @@ function Navbar() {
                 <a href="/contact ">Contact</a>
                 <select name="" id="" className="language-select">
                     <option value="">English</option>
-                    <option value="">Spanish</option>
+                    <option value="">Tamil</option>
                     <option value="">French</option>
                 </select>
 				<button

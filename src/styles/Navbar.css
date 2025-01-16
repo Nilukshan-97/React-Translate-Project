@@ -9,7 +9,7 @@
 }
 
 :root {
-	--mainColor: #29335c;
+	--mainColor: #37688a;
 	--mainColorLight: #5767aa;
 	--secondaryColor: rgb(255, 187, 0);
 	--textColor: #eee;
@@ -26,6 +26,7 @@ header {
 	color: var(--textColor);
 	position: relative;
 	z-index: 10;
+	
 }
 
 nav {
