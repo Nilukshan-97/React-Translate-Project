@@ -8,7 +8,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import CallIcon from '@mui/icons-material/Call';
 import EmailIcon from '@mui/icons-material/Email';
-import PinDropIcon from '@mui/icons-material/PinDrop';
+
 
 function Navbar() {
     const navRef = useRef();
