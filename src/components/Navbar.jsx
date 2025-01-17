@@ -35,6 +35,7 @@ function Navbar() {
                     <select className="language-select">
                         <option value="en">English</option>
                         <option value="ta">Tamil</option>
+                        <option value="fr">French</option>
                     </select>
                 </div>
             </div>
