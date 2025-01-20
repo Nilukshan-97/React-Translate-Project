@@ -4,6 +4,7 @@ import '../styles/AboutUs.css';
 import aboutImage from '../assets/about.jpg';
 import PricingImage from '../assets/pricing.jpg';
 import AboutSection from '../components/AboutSection';
+import CustomerFeedback from '../components/CustomerFeedback';
 
 const About = () => {
   return (
@@ -34,6 +35,7 @@ const About = () => {
       </div>
 
       <div>
+        <CustomerFeedback/>
         <WhyChooseUs/>
       </div>
     </div>
