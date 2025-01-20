@@ -1,0 +1,268 @@
+.translation-section {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    color: white;
+    background-image: url('../assets/Bg3.jpg'); 
+    background-position: center;
+}
+
+.translation-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(26, 42, 51, 0.9); 
+    z-index: 1;
+}
+
+.content {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    margin-left: 60px;
+    position: relative;
+    z-index: 2;
+}
+  
+.sub-heading {
+    font-size: 16px;
+    color: #00bfa5;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+    text-align: left;
+  }
+  
+  .main-heading {
+    font-size: 58px;
+    margin: 10px 0;
+    padding-bottom: 10px;
+    text-align: left;
+  }
+  
+  .description {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    text-align: left;
+    padding-bottom: 10px;
+  }
+  
+  .request-btn {
+    padding: 12px 24px;
+    border: solid 2px #00bfa5;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    padding-bottom: 10px;
+  }
+  
+  .request-btn:hover {
+    background: #009688;
+    color: white;
+    border: solid 1px white;
+  }
+  
+  .trusted-by {
+    margin-top: 30px;
+    color: white;
+    
+  }
+  
+  .trusted-by p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #bbb;
+    padding-bottom: 10px;
+    text-align: left;
+  }
+  
+  .logos img {
+    height: 50px;
+    margin-right: 80px;
+    cursor: pointer;
+  }
+
+  .newsForm{
+    margin-right: 80px;
+    
+  }
+  
+  .newsletter {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    color: #333;
+    max-width: 400px;
+    margin-right: 60px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .newsletter h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .newsletter-description {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #464545;
+    text-align: left;
+  }
+  
+  .email-input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .subscribe-btn {
+    width: 100%;
+    padding: 15px;
+    background: #f0d57a;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .subscribe-btn:hover {
+    background: #e4c36e;
+    
+  }
+  
+  .subscribe-btn span {
+    margin-left: 10px;
+    
+  }
+
+
+@media (max-width: 1024px) {
+    .translation-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .content {
+        max-width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .main-heading {
+        font-size: 48px;
+    }
+
+    .newsletter {
+        margin: 30px auto 0;
+    }
+
+    .logos img {
+        margin-right: 40px;
+    }
+
+    .request-btn {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .translation-section {
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .content {
+        max-width: 100%;
+        margin: 0;
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    .main-heading {
+        font-size: 36px;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+
+    .request-btn {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+
+    .newsletter {
+        padding: 30px;
+        max-width: 100%;
+        margin: 20px auto;
+    }
+
+    .logos img {
+        height: 40px;
+        margin: 10px;
+    }
+
+    .newsForm {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .content {
+        padding: 0 15px;
+    }
+
+    .main-heading {
+        font-size: 28px;
+    }
+
+    .description {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .request-btn {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+
+    .newsletter {
+        padding: 20px;
+        max-width: 100%;
+    }
+
+    .newsletter h3 {
+        font-size: 24px;
+    }
+
+    .email-input {
+        padding: 12px;
+    }
+
+    .subscribe-btn {
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    .logos img {
+        height: 30px;
+        margin: 5px;
+    }
+}
