@@ -7,6 +7,7 @@ import Contact from './pages/Contact';
 import Pricing from './pages/Pricing';
 import Services from './pages/Services';
 import About from './pages/About';
+import Newsletter from './components/NewsLetter';
 
 function App() {
     return (
@@ -20,6 +21,7 @@ function App() {
                     <Route path="/services" element={<Services />} />
                     <Route path="/about" element={<About />} />
                 </Routes>
+            <Newsletter/>    
             <Footer />
             
         </Router>

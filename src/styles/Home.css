@@ -134,6 +134,5 @@
   .btn:hover {
     background-color: rgb(212, 155, 21);
     color: #ffffff;
-    font-weight: bold;
-    
+    font-weight: bold; 
   }

@@ -54,9 +54,7 @@ function Contact() {
         <ContactForm />
       </div>
 
-      <div>
-        <Newsletter/>
-      </div>
+     
     </div>
   );
 }

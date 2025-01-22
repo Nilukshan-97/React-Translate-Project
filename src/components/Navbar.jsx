@@ -48,7 +48,7 @@ function Navbar() {
                     <a href="/pricing">Pricing</a>
                     <a href="/services">Services</a>
                     <a href="/contact">Contact</a>
-                    <button className="translate-button">Translate Now</button>
+                    <button className="translate-button">Translate Now  <span> &gt; </span> </button>
                     <button
                         className="nav-btn nav-close-btn"
                         onClick={showNavbar}>

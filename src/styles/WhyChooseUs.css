@@ -17,7 +17,7 @@
   .section-header p {
     text-align: center;
     font-size: 16px;
-    color: #555;
+    color: #2e2e2e;
     line-height: 1.6;
     margin-bottom: 40px;
     margin-left: 60px;
@@ -25,21 +25,26 @@
     
   }
   
-  .content {
+  .content-f {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
   }
-  
+
   .features {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    width: 60%;
+    width: 40%;
+    margin-left: 10%;
   }
+
   
   .image-section img {
-    display: block;
-    width: 500px;
+    display:flex;
+    flex-direction: row;
+    width: 600px;
     border-radius: 10px;
   }
+
+  
