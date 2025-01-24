@@ -11,21 +11,25 @@
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0;
+    height: 50%;
     background: url('../assets/Pricing.jpg') no-repeat center;
     background-size: cover;
-    opacity: 0.5; 
-    z-index: -1; 
+    opacity: 0.8; 
+    z-index: -1;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+    margin: 20px;  
 }
 
-.header-p {
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), white 70%);
-}
+/* .header-p {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), white 50%);
+} */
 
-.header-p h1 {
+ .header-p h1 {
     font-size: 2.5rem;
     margin: 0.5rem 0;
     color: #ffffff;
+    
 }
 
 .header-p h4 {
@@ -36,4 +40,4 @@
 .header-p p {
     font-size: 1.2rem;
     margin: 1rem 0;
-}
+} 

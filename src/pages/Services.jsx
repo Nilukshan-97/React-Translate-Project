@@ -34,17 +34,19 @@ const Services = () => {
       <div className="services-container">
        
         <div className="images-section">
-          <img src={aboutImage} alt="Service Industry" className="service-image" />
-          <img src={PricingImage} alt="Pricing Plans" className="service-image" />
+          <img src={aboutImage} alt="Service Industry" className="service-image-1" />
+          <img src={PricingImage} alt="Pricing Plans" className="service-image-2" />
         </div>
 
         
         <div className="services-list">
           {services.map((service, index) => (
             <div key={index} className="service-card">
-              <span className="icon"><service.Icon /></span>
-              <h3>{service.title}</h3>
-              <p>{service.description}</p>
+              <div className="icon"><service.Icon /></div>
+              <div className="text-content">
+                <h3>{service.title}</h3>
+                <p>{service.description}</p>
+              </div>
             </div>
           ))}
         </div>

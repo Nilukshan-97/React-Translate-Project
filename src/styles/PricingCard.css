@@ -9,15 +9,19 @@
   transition: transform 0.3s ease;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin: 100px;
+  z-index: 1;
+  transform: translate(2%, -15%);
 }
 
 .pricing-card.popular {
   border: 2px solid #00acc1;
-  background-color: rgba(224, 247, 250, 0.95);
+  background-color: rgba(173, 220, 226, 0.95);
+  
 }
 
 .pricing-card:hover {
-  transform: scale(1.05);
+  transform: translateY(0.01px);
+  transition: all 0.3s ease;
 }
 
 .pricing-card h3 {

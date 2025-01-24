@@ -9,7 +9,7 @@ const Home = () => {
             <div className="hero-left">
                 <h1>Professional Translation at your finger tips</h1>
                 <p>Satisfied conveying an dependent contented he gentleman agreeable do be. Warrant private blushes removed an in equally totally if. Delivered dejection necessary objection do mr prevailed. </p>
-                <button className="btn">Our Services</button>
+                <button className="btn" onClick={() => window.location.href = '/services'} > Our Services </button>
             </div>
 
             <div className="hero-right">
